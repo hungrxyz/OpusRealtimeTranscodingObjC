@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CMBAudioController.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) CMBAudioController *audioController;
 
 @end
 

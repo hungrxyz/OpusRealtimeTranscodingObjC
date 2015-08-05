@@ -14,9 +14,18 @@
 
 @implementation ViewController
 
+- (instancetype)init
+{
+    if (self = [super init]) {
+        self.audioController = [[CMBAudioController alloc] init];
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.audioController = [[CMBAudioController alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {

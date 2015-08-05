@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA5257271B6A5CBC00EAC3AB /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5257261B6A5CBC00EAC3AB /* NewViewController.m */; };
+		FA52572A1B6A5CD400EAC3AB /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5257291B6A5CD400EAC3AB /* InitialViewController.m */; };
 		FAEB064E1B63840800A01D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB064D1B63840800A01D16 /* main.m */; };
 		FAEB06511B63840800A01D16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06501B63840800A01D16 /* AppDelegate.m */; };
 		FAEB06541B63840800A01D16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06531B63840800A01D16 /* ViewController.m */; };
@@ -14,6 +16,36 @@
 		FAEB06591B63840800A01D16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEB06581B63840800A01D16 /* Images.xcassets */; };
 		FAEB065C1B63840800A01D16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEB065A1B63840800A01D16 /* LaunchScreen.xib */; };
 		FAEB06681B63840800A01D16 /* OpusEncodingObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06671B63840800A01D16 /* OpusEncodingObjCTests.m */; };
+		FAEB06951B63843900A01D16 /* EZAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06731B63843900A01D16 /* EZAudio.m */; };
+		FAEB06961B63843900A01D16 /* EZAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06751B63843900A01D16 /* EZAudioDevice.m */; };
+		FAEB06971B63843900A01D16 /* EZAudioDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06771B63843900A01D16 /* EZAudioDisplayLink.m */; };
+		FAEB06981B63843900A01D16 /* EZAudioFFT.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06791B63843900A01D16 /* EZAudioFFT.m */; };
+		FAEB06991B63843900A01D16 /* EZAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB067B1B63843900A01D16 /* EZAudioFile.m */; };
+		FAEB069A1B63843900A01D16 /* EZAudioFloatConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB067D1B63843900A01D16 /* EZAudioFloatConverter.m */; };
+		FAEB069B1B63843900A01D16 /* EZAudioFloatData.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB067F1B63843900A01D16 /* EZAudioFloatData.m */; };
+		FAEB069C1B63843900A01D16 /* EZAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06811B63843900A01D16 /* EZAudioPlayer.m */; };
+		FAEB069D1B63843900A01D16 /* EZAudioPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06831B63843900A01D16 /* EZAudioPlot.m */; };
+		FAEB069E1B63843900A01D16 /* EZAudioPlotGL.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06851B63843900A01D16 /* EZAudioPlotGL.m */; };
+		FAEB069F1B63843900A01D16 /* EZAudioUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06871B63843900A01D16 /* EZAudioUtilities.m */; };
+		FAEB06A01B63843900A01D16 /* EZMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06891B63843900A01D16 /* EZMicrophone.m */; };
+		FAEB06A11B63843900A01D16 /* EZOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB068B1B63843900A01D16 /* EZOutput.m */; };
+		FAEB06A21B63843900A01D16 /* EZPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB068D1B63843900A01D16 /* EZPlot.m */; };
+		FAEB06A31B63843900A01D16 /* EZRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB068F1B63843900A01D16 /* EZRecorder.m */; };
+		FAEB06A41B63843900A01D16 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06901B63843900A01D16 /* TPCircularBuffer.c */; };
+		FAEB06A51B63843900A01D16 /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = FAEB06931B63843900A01D16 /* CHANGELOG */; };
+		FAEB06A61B63843900A01D16 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = FAEB06941B63843900A01D16 /* VERSION */; };
+		FAEB06B71B63845E00A01D16 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEB06A91B63845E00A01D16 /* libogg.a */; };
+		FAEB06B81B63845E00A01D16 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEB06AD1B63845E00A01D16 /* libopus.a */; };
+		FAEB06B91B63845E00A01D16 /* CSIDataQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06B31B63845E00A01D16 /* CSIDataQueue.c */; };
+		FAEB06BA1B63845E00A01D16 /* CSIOpusEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06B61B63845E00A01D16 /* CSIOpusEncoder.m */; };
+		FAEB06C81B6384A100A01D16 /* OKCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06BD1B6384A100A01D16 /* OKCodec.m */; };
+		FAEB06C91B6384A100A01D16 /* OKDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06BF1B6384A100A01D16 /* OKDecoder.m */; };
+		FAEB06CA1B6384A100A01D16 /* OKEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06C11B6384A100A01D16 /* OKEncoder.m */; };
+		FAEB06CB1B6384A100A01D16 /* OKPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06C31B6384A100A01D16 /* OKPacket.m */; };
+		FAEB06CC1B6384A100A01D16 /* OKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06C51B6384A100A01D16 /* OKUtilities.m */; };
+		FAEB06CD1B6384A100A01D16 /* OpusKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06C71B6384A100A01D16 /* OpusKit.m */; };
+		FAEB06D01B6385E600A01D16 /* CMBAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06CF1B6385E600A01D16 /* CMBAudioController.m */; };
+		FAEB06D31B63872000A01D16 /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06D11B63872000A01D16 /* TPCircularBuffer+AudioBufferList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA5257251B6A5CBC00EAC3AB /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		FA5257261B6A5CBC00EAC3AB /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		FA5257281B6A5CD400EAC3AB /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		FA5257291B6A5CD400EAC3AB /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
 		FAEB06481B63840800A01D16 /* OpusEncodingObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpusEncodingObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEB064C1B63840800A01D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAEB064D1B63840800A01D16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +76,69 @@
 		FAEB06611B63840800A01D16 /* OpusEncodingObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpusEncodingObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEB06661B63840800A01D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAEB06671B63840800A01D16 /* OpusEncodingObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpusEncodingObjCTests.m; sourceTree = "<group>"; };
+		FAEB06721B63843900A01D16 /* EZAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudio.h; sourceTree = "<group>"; };
+		FAEB06731B63843900A01D16 /* EZAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudio.m; sourceTree = "<group>"; };
+		FAEB06741B63843900A01D16 /* EZAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioDevice.h; sourceTree = "<group>"; };
+		FAEB06751B63843900A01D16 /* EZAudioDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioDevice.m; sourceTree = "<group>"; };
+		FAEB06761B63843900A01D16 /* EZAudioDisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioDisplayLink.h; sourceTree = "<group>"; };
+		FAEB06771B63843900A01D16 /* EZAudioDisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioDisplayLink.m; sourceTree = "<group>"; };
+		FAEB06781B63843900A01D16 /* EZAudioFFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioFFT.h; sourceTree = "<group>"; };
+		FAEB06791B63843900A01D16 /* EZAudioFFT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioFFT.m; sourceTree = "<group>"; };
+		FAEB067A1B63843900A01D16 /* EZAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioFile.h; sourceTree = "<group>"; };
+		FAEB067B1B63843900A01D16 /* EZAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioFile.m; sourceTree = "<group>"; };
+		FAEB067C1B63843900A01D16 /* EZAudioFloatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioFloatConverter.h; sourceTree = "<group>"; };
+		FAEB067D1B63843900A01D16 /* EZAudioFloatConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioFloatConverter.m; sourceTree = "<group>"; };
+		FAEB067E1B63843900A01D16 /* EZAudioFloatData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioFloatData.h; sourceTree = "<group>"; };
+		FAEB067F1B63843900A01D16 /* EZAudioFloatData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioFloatData.m; sourceTree = "<group>"; };
+		FAEB06801B63843900A01D16 /* EZAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioPlayer.h; sourceTree = "<group>"; };
+		FAEB06811B63843900A01D16 /* EZAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioPlayer.m; sourceTree = "<group>"; };
+		FAEB06821B63843900A01D16 /* EZAudioPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioPlot.h; sourceTree = "<group>"; };
+		FAEB06831B63843900A01D16 /* EZAudioPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioPlot.m; sourceTree = "<group>"; };
+		FAEB06841B63843900A01D16 /* EZAudioPlotGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioPlotGL.h; sourceTree = "<group>"; };
+		FAEB06851B63843900A01D16 /* EZAudioPlotGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioPlotGL.m; sourceTree = "<group>"; };
+		FAEB06861B63843900A01D16 /* EZAudioUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioUtilities.h; sourceTree = "<group>"; };
+		FAEB06871B63843900A01D16 /* EZAudioUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioUtilities.m; sourceTree = "<group>"; };
+		FAEB06881B63843900A01D16 /* EZMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZMicrophone.h; sourceTree = "<group>"; };
+		FAEB06891B63843900A01D16 /* EZMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZMicrophone.m; sourceTree = "<group>"; };
+		FAEB068A1B63843900A01D16 /* EZOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZOutput.h; sourceTree = "<group>"; };
+		FAEB068B1B63843900A01D16 /* EZOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZOutput.m; sourceTree = "<group>"; };
+		FAEB068C1B63843900A01D16 /* EZPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPlot.h; sourceTree = "<group>"; };
+		FAEB068D1B63843900A01D16 /* EZPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPlot.m; sourceTree = "<group>"; };
+		FAEB068E1B63843900A01D16 /* EZRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRecorder.h; sourceTree = "<group>"; };
+		FAEB068F1B63843900A01D16 /* EZRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRecorder.m; sourceTree = "<group>"; };
+		FAEB06901B63843900A01D16 /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
+		FAEB06911B63843900A01D16 /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
+		FAEB06931B63843900A01D16 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		FAEB06941B63843900A01D16 /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+		FAEB06A81B63845E00A01D16 /* config_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_types.h; sourceTree = "<group>"; };
+		FAEB06A91B63845E00A01D16 /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libogg.a; sourceTree = "<group>"; };
+		FAEB06AA1B63845E00A01D16 /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg.h; sourceTree = "<group>"; };
+		FAEB06AB1B63845E00A01D16 /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_types.h; sourceTree = "<group>"; };
+		FAEB06AD1B63845E00A01D16 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopus.a; sourceTree = "<group>"; };
+		FAEB06AE1B63845E00A01D16 /* opus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus.h; sourceTree = "<group>"; };
+		FAEB06AF1B63845E00A01D16 /* opus_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_defines.h; sourceTree = "<group>"; };
+		FAEB06B01B63845E00A01D16 /* opus_multistream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_multistream.h; sourceTree = "<group>"; };
+		FAEB06B11B63845E00A01D16 /* opus_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_types.h; sourceTree = "<group>"; };
+		FAEB06B31B63845E00A01D16 /* CSIDataQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CSIDataQueue.c; sourceTree = "<group>"; };
+		FAEB06B41B63845E00A01D16 /* CSIDataQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSIDataQueue.h; sourceTree = "<group>"; };
+		FAEB06B51B63845E00A01D16 /* CSIOpusEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSIOpusEncoder.h; sourceTree = "<group>"; };
+		FAEB06B61B63845E00A01D16 /* CSIOpusEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSIOpusEncoder.m; sourceTree = "<group>"; };
+		FAEB06BC1B6384A100A01D16 /* OKCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKCodec.h; sourceTree = "<group>"; };
+		FAEB06BD1B6384A100A01D16 /* OKCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKCodec.m; sourceTree = "<group>"; };
+		FAEB06BE1B6384A100A01D16 /* OKDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKDecoder.h; sourceTree = "<group>"; };
+		FAEB06BF1B6384A100A01D16 /* OKDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKDecoder.m; sourceTree = "<group>"; };
+		FAEB06C01B6384A100A01D16 /* OKEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKEncoder.h; sourceTree = "<group>"; };
+		FAEB06C11B6384A100A01D16 /* OKEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKEncoder.m; sourceTree = "<group>"; };
+		FAEB06C21B6384A100A01D16 /* OKPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKPacket.h; sourceTree = "<group>"; };
+		FAEB06C31B6384A100A01D16 /* OKPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKPacket.m; sourceTree = "<group>"; };
+		FAEB06C41B6384A100A01D16 /* OKUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKUtilities.h; sourceTree = "<group>"; };
+		FAEB06C51B6384A100A01D16 /* OKUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKUtilities.m; sourceTree = "<group>"; };
+		FAEB06C61B6384A100A01D16 /* OpusKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpusKit.h; sourceTree = "<group>"; };
+		FAEB06C71B6384A100A01D16 /* OpusKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpusKit.m; sourceTree = "<group>"; };
+		FAEB06CE1B6385E600A01D16 /* CMBAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBAudioController.h; sourceTree = "<group>"; };
+		FAEB06CF1B6385E600A01D16 /* CMBAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBAudioController.m; sourceTree = "<group>"; };
+		FAEB06D11B63872000A01D16 /* TPCircularBuffer+AudioBufferList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "TPCircularBuffer+AudioBufferList.c"; path = "../../TPCircularBuffer-master/TPCircularBuffer+AudioBufferList.c"; sourceTree = "<group>"; };
+		FAEB06D21B63872000A01D16 /* TPCircularBuffer+AudioBufferList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TPCircularBuffer+AudioBufferList.h"; path = "../../TPCircularBuffer-master/TPCircularBuffer+AudioBufferList.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +146,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEB06B81B63845E00A01D16 /* libopus.a in Frameworks */,
+				FAEB06B71B63845E00A01D16 /* libogg.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,8 +184,19 @@
 			children = (
 				FAEB064F1B63840800A01D16 /* AppDelegate.h */,
 				FAEB06501B63840800A01D16 /* AppDelegate.m */,
+				FA5257281B6A5CD400EAC3AB /* InitialViewController.h */,
+				FA5257291B6A5CD400EAC3AB /* InitialViewController.m */,
+				FA5257251B6A5CBC00EAC3AB /* NewViewController.h */,
+				FA5257261B6A5CBC00EAC3AB /* NewViewController.m */,
 				FAEB06521B63840800A01D16 /* ViewController.h */,
 				FAEB06531B63840800A01D16 /* ViewController.m */,
+				FAEB06CE1B6385E600A01D16 /* CMBAudioController.h */,
+				FAEB06CF1B6385E600A01D16 /* CMBAudioController.m */,
+				FAEB06711B63843900A01D16 /* EZAudio */,
+				FAEB06A71B63845E00A01D16 /* Ogg */,
+				FAEB06AC1B63845E00A01D16 /* Opus */,
+				FAEB06B21B63845E00A01D16 /* Opus Encoder */,
+				FAEB06BB1B6384A100A01D16 /* OpusKit */,
 				FAEB06551B63840800A01D16 /* Main.storyboard */,
 				FAEB06581B63840800A01D16 /* Images.xcassets */,
 				FAEB065A1B63840800A01D16 /* LaunchScreen.xib */,
@@ -117,6 +229,115 @@
 				FAEB06661B63840800A01D16 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAEB06711B63843900A01D16 /* EZAudio */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB06721B63843900A01D16 /* EZAudio.h */,
+				FAEB06731B63843900A01D16 /* EZAudio.m */,
+				FAEB06741B63843900A01D16 /* EZAudioDevice.h */,
+				FAEB06751B63843900A01D16 /* EZAudioDevice.m */,
+				FAEB06761B63843900A01D16 /* EZAudioDisplayLink.h */,
+				FAEB06771B63843900A01D16 /* EZAudioDisplayLink.m */,
+				FAEB06781B63843900A01D16 /* EZAudioFFT.h */,
+				FAEB06791B63843900A01D16 /* EZAudioFFT.m */,
+				FAEB067A1B63843900A01D16 /* EZAudioFile.h */,
+				FAEB067B1B63843900A01D16 /* EZAudioFile.m */,
+				FAEB067C1B63843900A01D16 /* EZAudioFloatConverter.h */,
+				FAEB067D1B63843900A01D16 /* EZAudioFloatConverter.m */,
+				FAEB067E1B63843900A01D16 /* EZAudioFloatData.h */,
+				FAEB067F1B63843900A01D16 /* EZAudioFloatData.m */,
+				FAEB06801B63843900A01D16 /* EZAudioPlayer.h */,
+				FAEB06811B63843900A01D16 /* EZAudioPlayer.m */,
+				FAEB06821B63843900A01D16 /* EZAudioPlot.h */,
+				FAEB06831B63843900A01D16 /* EZAudioPlot.m */,
+				FAEB06841B63843900A01D16 /* EZAudioPlotGL.h */,
+				FAEB06851B63843900A01D16 /* EZAudioPlotGL.m */,
+				FAEB06861B63843900A01D16 /* EZAudioUtilities.h */,
+				FAEB06871B63843900A01D16 /* EZAudioUtilities.m */,
+				FAEB06881B63843900A01D16 /* EZMicrophone.h */,
+				FAEB06891B63843900A01D16 /* EZMicrophone.m */,
+				FAEB068A1B63843900A01D16 /* EZOutput.h */,
+				FAEB068B1B63843900A01D16 /* EZOutput.m */,
+				FAEB068C1B63843900A01D16 /* EZPlot.h */,
+				FAEB068D1B63843900A01D16 /* EZPlot.m */,
+				FAEB068E1B63843900A01D16 /* EZRecorder.h */,
+				FAEB068F1B63843900A01D16 /* EZRecorder.m */,
+				FAEB06901B63843900A01D16 /* TPCircularBuffer.c */,
+				FAEB06911B63843900A01D16 /* TPCircularBuffer.h */,
+				FAEB06D11B63872000A01D16 /* TPCircularBuffer+AudioBufferList.c */,
+				FAEB06D21B63872000A01D16 /* TPCircularBuffer+AudioBufferList.h */,
+				FAEB06921B63843900A01D16 /* VERSION */,
+			);
+			name = EZAudio;
+			path = "../../../../../../Downloads/EZAudio-master/EZAudio";
+			sourceTree = "<group>";
+		};
+		FAEB06921B63843900A01D16 /* VERSION */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB06931B63843900A01D16 /* CHANGELOG */,
+				FAEB06941B63843900A01D16 /* VERSION */,
+			);
+			path = VERSION;
+			sourceTree = "<group>";
+		};
+		FAEB06A71B63845E00A01D16 /* Ogg */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB06A81B63845E00A01D16 /* config_types.h */,
+				FAEB06A91B63845E00A01D16 /* libogg.a */,
+				FAEB06AA1B63845E00A01D16 /* ogg.h */,
+				FAEB06AB1B63845E00A01D16 /* os_types.h */,
+			);
+			name = Ogg;
+			path = ../../../../../../Documents/Developer/Ogg;
+			sourceTree = "<group>";
+		};
+		FAEB06AC1B63845E00A01D16 /* Opus */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB06AD1B63845E00A01D16 /* libopus.a */,
+				FAEB06AE1B63845E00A01D16 /* opus.h */,
+				FAEB06AF1B63845E00A01D16 /* opus_defines.h */,
+				FAEB06B01B63845E00A01D16 /* opus_multistream.h */,
+				FAEB06B11B63845E00A01D16 /* opus_types.h */,
+			);
+			name = Opus;
+			path = ../../../../../../Documents/Developer/Opus;
+			sourceTree = "<group>";
+		};
+		FAEB06B21B63845E00A01D16 /* Opus Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB06B31B63845E00A01D16 /* CSIDataQueue.c */,
+				FAEB06B41B63845E00A01D16 /* CSIDataQueue.h */,
+				FAEB06B51B63845E00A01D16 /* CSIOpusEncoder.h */,
+				FAEB06B61B63845E00A01D16 /* CSIOpusEncoder.m */,
+			);
+			name = "Opus Encoder";
+			path = "../../../../../../Documents/Developer/Opus Encoder";
+			sourceTree = "<group>";
+		};
+		FAEB06BB1B6384A100A01D16 /* OpusKit */ = {
+			isa = PBXGroup;
+			children = (
+				FAEB06BC1B6384A100A01D16 /* OKCodec.h */,
+				FAEB06BD1B6384A100A01D16 /* OKCodec.m */,
+				FAEB06BE1B6384A100A01D16 /* OKDecoder.h */,
+				FAEB06BF1B6384A100A01D16 /* OKDecoder.m */,
+				FAEB06C01B6384A100A01D16 /* OKEncoder.h */,
+				FAEB06C11B6384A100A01D16 /* OKEncoder.m */,
+				FAEB06C21B6384A100A01D16 /* OKPacket.h */,
+				FAEB06C31B6384A100A01D16 /* OKPacket.m */,
+				FAEB06C41B6384A100A01D16 /* OKUtilities.h */,
+				FAEB06C51B6384A100A01D16 /* OKUtilities.m */,
+				FAEB06C61B6384A100A01D16 /* OpusKit.h */,
+				FAEB06C71B6384A100A01D16 /* OpusKit.m */,
+			);
+			name = OpusKit;
+			path = "../../../../../../Downloads/OpusKit-master/OpusKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +421,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAEB06571B63840800A01D16 /* Main.storyboard in Resources */,
+				FAEB06A51B63843900A01D16 /* CHANGELOG in Resources */,
 				FAEB065C1B63840800A01D16 /* LaunchScreen.xib in Resources */,
 				FAEB06591B63840800A01D16 /* Images.xcassets in Resources */,
+				FAEB06A61B63843900A01D16 /* VERSION in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +442,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEB06A31B63843900A01D16 /* EZRecorder.m in Sources */,
+				FAEB06BA1B63845E00A01D16 /* CSIOpusEncoder.m in Sources */,
+				FAEB06CC1B6384A100A01D16 /* OKUtilities.m in Sources */,
+				FAEB069D1B63843900A01D16 /* EZAudioPlot.m in Sources */,
+				FAEB069C1B63843900A01D16 /* EZAudioPlayer.m in Sources */,
 				FAEB06541B63840800A01D16 /* ViewController.m in Sources */,
+				FAEB069E1B63843900A01D16 /* EZAudioPlotGL.m in Sources */,
+				FAEB06991B63843900A01D16 /* EZAudioFile.m in Sources */,
+				FAEB06C91B6384A100A01D16 /* OKDecoder.m in Sources */,
+				FA52572A1B6A5CD400EAC3AB /* InitialViewController.m in Sources */,
+				FAEB06A11B63843900A01D16 /* EZOutput.m in Sources */,
+				FAEB06951B63843900A01D16 /* EZAudio.m in Sources */,
+				FAEB06D01B6385E600A01D16 /* CMBAudioController.m in Sources */,
+				FAEB06D31B63872000A01D16 /* TPCircularBuffer+AudioBufferList.c in Sources */,
+				FAEB06A41B63843900A01D16 /* TPCircularBuffer.c in Sources */,
+				FAEB06CB1B6384A100A01D16 /* OKPacket.m in Sources */,
+				FAEB06B91B63845E00A01D16 /* CSIDataQueue.c in Sources */,
 				FAEB06511B63840800A01D16 /* AppDelegate.m in Sources */,
+				FAEB069B1B63843900A01D16 /* EZAudioFloatData.m in Sources */,
+				FAEB06A01B63843900A01D16 /* EZMicrophone.m in Sources */,
+				FAEB069A1B63843900A01D16 /* EZAudioFloatConverter.m in Sources */,
+				FAEB06CA1B6384A100A01D16 /* OKEncoder.m in Sources */,
 				FAEB064E1B63840800A01D16 /* main.m in Sources */,
+				FAEB06C81B6384A100A01D16 /* OKCodec.m in Sources */,
+				FAEB06971B63843900A01D16 /* EZAudioDisplayLink.m in Sources */,
+				FAEB06A21B63843900A01D16 /* EZPlot.m in Sources */,
+				FAEB06CD1B6384A100A01D16 /* OpusKit.m in Sources */,
+				FAEB06981B63843900A01D16 /* EZAudioFFT.m in Sources */,
+				FA5257271B6A5CBC00EAC3AB /* NewViewController.m in Sources */,
+				FAEB069F1B63843900A01D16 /* EZAudioUtilities.m in Sources */,
+				FAEB06961B63843900A01D16 /* EZAudioDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +600,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OpusEncodingObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Devxhkl/Documents/Developer/Ogg,
+					/Users/Devxhkl/Documents/Developer/Opus,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,6 +615,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OpusEncodingObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Devxhkl/Documents/Developer/Ogg,
+					/Users/Devxhkl/Documents/Developer/Opus,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +677,7 @@
 				FAEB066D1B63840800A01D16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAEB066E1B63840800A01D16 /* Build configuration list for PBXNativeTarget "OpusEncodingObjCTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +686,7 @@
 				FAEB06701B63840800A01D16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
