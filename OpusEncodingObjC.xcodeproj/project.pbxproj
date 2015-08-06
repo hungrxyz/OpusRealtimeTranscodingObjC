@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA5257271B6A5CBC00EAC3AB /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5257261B6A5CBC00EAC3AB /* NewViewController.m */; };
 		FA52572A1B6A5CD400EAC3AB /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5257291B6A5CD400EAC3AB /* InitialViewController.m */; };
+		FAB561D51B72E7FD002162F6 /* RecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB561D41B72E7FD002162F6 /* RecordingViewController.m */; };
 		FAEB064E1B63840800A01D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB064D1B63840800A01D16 /* main.m */; };
 		FAEB06511B63840800A01D16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06501B63840800A01D16 /* AppDelegate.m */; };
 		FAEB06541B63840800A01D16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEB06531B63840800A01D16 /* ViewController.m */; };
@@ -63,6 +64,8 @@
 		FA5257261B6A5CBC00EAC3AB /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 		FA5257281B6A5CD400EAC3AB /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
 		FA5257291B6A5CD400EAC3AB /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		FAB561D31B72E7FD002162F6 /* RecordingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingViewController.h; sourceTree = "<group>"; };
+		FAB561D41B72E7FD002162F6 /* RecordingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingViewController.m; sourceTree = "<group>"; };
 		FAEB06481B63840800A01D16 /* OpusEncodingObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpusEncodingObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEB064C1B63840800A01D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAEB064D1B63840800A01D16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -188,6 +191,8 @@
 				FA5257291B6A5CD400EAC3AB /* InitialViewController.m */,
 				FA5257251B6A5CBC00EAC3AB /* NewViewController.h */,
 				FA5257261B6A5CBC00EAC3AB /* NewViewController.m */,
+				FAB561D31B72E7FD002162F6 /* RecordingViewController.h */,
+				FAB561D41B72E7FD002162F6 /* RecordingViewController.m */,
 				FAEB06521B63840800A01D16 /* ViewController.h */,
 				FAEB06531B63840800A01D16 /* ViewController.m */,
 				FAEB06CE1B6385E600A01D16 /* CMBAudioController.h */,
@@ -458,6 +463,7 @@
 				FAEB06D31B63872000A01D16 /* TPCircularBuffer+AudioBufferList.c in Sources */,
 				FAEB06A41B63843900A01D16 /* TPCircularBuffer.c in Sources */,
 				FAEB06CB1B6384A100A01D16 /* OKPacket.m in Sources */,
+				FAB561D51B72E7FD002162F6 /* RecordingViewController.m in Sources */,
 				FAEB06B91B63845E00A01D16 /* CSIDataQueue.c in Sources */,
 				FAEB06511B63840800A01D16 /* AppDelegate.m in Sources */,
 				FAEB069B1B63843900A01D16 /* EZAudioFloatData.m in Sources */,

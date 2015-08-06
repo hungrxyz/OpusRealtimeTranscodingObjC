@@ -26,7 +26,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZU-V8-4HB">
-                                <rect key="frame" x="284.5" y="217" width="31" height="30"/>
+                                <rect key="frame" x="284" y="217" width="31" height="30"/>
                                 <state key="normal" title="New">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -34,10 +34,21 @@
                                     <segue destination="uwp-L4-KYk" kind="presentation" id="RZY-n1-RGy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irg-4a-5RV">
+                                <rect key="frame" x="269" y="285" width="63" height="30"/>
+                                <state key="normal" title="Recorder">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cgk-yf-kFI" kind="presentation" id="hU0-rP-OPh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="irg-4a-5RV" firstAttribute="top" secondItem="LZU-V8-4HB" secondAttribute="bottom" constant="38" id="9t3-2i-66f"/>
                             <constraint firstAttribute="centerX" secondItem="gNV-q9-x6J" secondAttribute="centerX" id="Gcz-cV-dDc"/>
+                            <constraint firstAttribute="centerX" secondItem="irg-4a-5RV" secondAttribute="centerX" id="N38-mu-JzG"/>
                             <constraint firstItem="LZU-V8-4HB" firstAttribute="top" secondItem="gNV-q9-x6J" secondAttribute="bottom" constant="46" id="Rds-cy-qPn"/>
                             <constraint firstAttribute="centerX" secondItem="LZU-V8-4HB" secondAttribute="centerX" id="Ysx-4f-Axc"/>
                             <constraint firstItem="gNV-q9-x6J" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="121" id="kzh-L1-kE2"/>
@@ -63,7 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FQ5-li-KOh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1097" y="-36"/>
+            <point key="canvasLocation" x="1089" y="-276"/>
         </scene>
         <!--New View Controller-->
         <scene sceneID="7Vk-kL-UNH">
@@ -81,7 +92,51 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7FA-KS-HMR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1097" y="869"/>
+            <point key="canvasLocation" x="1089" y="387"/>
+        </scene>
+        <!--Recording View Controller-->
+        <scene sceneID="SKN-rU-pr6">
+            <objects>
+                <viewController id="cgk-yf-kFI" customClass="RecordingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BKf-Tu-QtZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="abu-a5-QUH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rnE-Bw-QiA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djb-TU-K0Z">
+                                <rect key="frame" x="285" y="290" width="30" height="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="cgk-yf-kFI" eventType="touchUpInside" id="Ah7-Mg-Ui1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPV-2w-g4v">
+                                <rect key="frame" x="275" y="205" width="50" height="30"/>
+                                <state key="normal" title="Record">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="record:" destination="cgk-yf-kFI" eventType="touchUpInside" id="79g-fk-EN4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="djb-TU-K0Z" firstAttribute="top" secondItem="qPV-2w-g4v" secondAttribute="bottom" constant="55" id="FZP-3G-bpF"/>
+                            <constraint firstAttribute="centerX" secondItem="djb-TU-K0Z" secondAttribute="centerX" id="b8W-JU-Z9o"/>
+                            <constraint firstItem="qPV-2w-g4v" firstAttribute="top" secondItem="BKf-Tu-QtZ" secondAttribute="bottom" constant="185" id="cMm-V9-02e"/>
+                            <constraint firstAttribute="centerX" secondItem="qPV-2w-g4v" secondAttribute="centerX" id="hCp-IN-H9H"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6RN-nZ-6Jr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1089" y="1138"/>
         </scene>
     </scenes>
 </document>

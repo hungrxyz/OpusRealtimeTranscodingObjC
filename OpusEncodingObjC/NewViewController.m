@@ -102,12 +102,23 @@
                     NSLog(@"Decoding fucked up: %@", error);
                 }
                 else {
+                    // Start Output to start seeking for audio data
                     if (!_audioOutput.isPlaying) {
                         [_audioOutput startPlayback];
                     }
                     
-                    NSLog(@"data: %lu", (unsigned long)numDecodedSamples);
+                    NSData *base64data = [pcmData base64EncodedDataWithOptions:0];
                     
+//                    NSLog(@"data: %lu", (unsigned long)numDecodedSamples);
+                    
+//                    const void *buffer = [pcmData bytes];
+//                    buffer = (char *)buffer;
+                    
+//                    AudioBufferList receivedBufferList;
+//                    memcpy(&_outputBufferList, buffer + 4, sizeof(_outputBufferList));
+                    
+//                    _outputBufferList = receivedBufferList;
+                    NSLog(@"To output");
                     _outputBufferList = [self getBufferListFromData:pcmData];
                 }
             }];
@@ -119,12 +130,13 @@
 
 - (OSStatus)output:(EZOutput *)output shouldFillAudioBufferList:(AudioBufferList *)audioBufferList withNumberOfFrames:(UInt32)frames timestamp:(const AudioTimeStamp *)timestamp {
     
+    NSLog(@"At Output");
     memcpy(audioBufferList, self.outputBufferList, sizeof(AudioBufferList) + (self.outputBufferList->mNumberBuffers - 1) * sizeof(AudioBuffer));
     
     return noErr;
 }
 
--(AudioBufferList *) getBufferListFromData: (NSData *) data
+- (AudioBufferList *)getBufferListFromData:(NSData *)data
 {
     if (data.length > 0)
     {
